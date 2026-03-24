@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+venv/
+
+# Great Expectations
+great_expectations/uncommitted/
+.ge_store_backend_id
+
+# Reports (auto-generated — don't commit)
+reports/
+
+# Data files (too large for GitHub)
+data/
+
+# Environment
+.env
